@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio Moderno | Felipe Larré</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="particles-js"></div>
+  
+  <header>
+    <div class="container">
+      <nav>
+        <a href="" class="logo">
+          <i class="fas fa-code"></i>
+          <span>Portfólio</span>
+        </a>
+        
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#home" class="active">Início</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#all-projects">Todos os Projetos</a></li>
+          <li><a href="#contact">Contato</a></li>
+        </ul>
+        
+        <div class="nav-buttons">
+          <button class="theme-toggle" id="themeToggle" aria-label="Alternar tema claro/escuro">
+            <i class="fas fa-moon"></i>
+          </button>
+          <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="container">
+      <div class="hero-content">
+        <div class="avatar-container">
+          <div class="avatar">
+            <img src="Imag/perfil-foto.png" alt="Foto de Felipe Larré">
+          </div>
+        </div>
+        
+        <h1 class="hero-title">
+          Olá, eu sou <span>Felipe Larré</span>
+        </h1>
+        
+        <div class="typing-container">
+          <h2 class="hero-subtitle" id="typing">Desenvolvedor Front-End & UI/UX Designer</h2>
+        </div>
+        
+        <p class="hero-subtitle">
+          Transformo ideias em experiências digitais incríveis com foco em performance, 
+          acessibilidade e design moderno.
+        </p>
+        
+        <div class="hero-btns">
+          <a href="#projects" class="btn">Ver Projetos</a>
+          <a href="#contact" class="btn btn-outline">Contate-me</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">Minhas Habilidades</h2>
+      
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-html5"></i>
+          </div>
+          <h3 class="skill-title">HTML5</h3>
+          <p class="skill-desc">Semântica, acessibilidade e estruturação otimizada para SEO</p>
+        </div>
+        
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-css3-alt"></i>
+          </div>
+          <h3 class="skill-title">CSS3</h3>
+          <p class="skill-desc">Design responsivo, animações, Flexbox, Grid e pré-processadores</p>
+        </div>
+        
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-js"></i>
+          </div>
+          <h3 class="skill-title">JavaScript</h3>
+          <p class="skill-desc">ES6+, DOM Manipulation, APIs, AJAX e programação funcional</p>
+        </div>
+        
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-react"></i>
+          </div>
+          <h3 class="skill-title">React</h3>
+          <p class="skill-desc">Componentes, Hooks, Context API, React Router e Redux</p>
+        </div>
+        
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <h3 class="skill-title">Responsividade</h3>
+          <p class="skill-desc">Design mobile-first, media queries e layouts adaptativos</p>
+        </div>
+        
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-brush"></i>
+          </div>
+          <h3 class="skill-title">UI/UX Design</h3>
+          <p class="skill-desc">Figma, prototipação, design systems e experiência do usuário</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fab fa-node-js"></i>
+          </div>
+          <h3 class="skill-title">Node.js</h3>
+          <p class="skill-desc">Criação de APIs, Express, backend JavaScript e integração com banco de dados</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon">
+            <i class="fas fa-database"></i>
+          </div>
+          <h3 class="skill-title">SQL</h3>
+          <p class="skill-desc">Criação de tabelas, comandos SQL, modelagem de dados e integração com aplicações</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">Projetos Recentes</h2>
+      
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="Imag/Barbearia.png" alt="Barbearia Elite">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Barbearia Elite</h3>
+            <div class="project-tech">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+            <p>Site para barbearia premium com sistema de agendamento online e galeria de serviços.</p>
+            <div class="project-links">
+              <a href="https://github.com/Felipelarre/Agendamento-Barbearia" class="project-link" aria-label= "Ver demonstração" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i> Código
+              </a>
+              <a href="https://barbearia-agendamento-online.netlify.app/" class="project-link" aria-label="Ver demonstração" target="_blank" rel="noopener noreferrer" >
+                <i class="fas fa-external-link-alt"></i>  On-line
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="project-card">
+          <div class="project-image">
+            <img src="Imag/Casa-M.png" alt="Casa de Recuperação">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Casa de Recuperação</h3>
+            <div class="project-tech">
+              <span class="tech-tag">WordPress</span>
+              <span class="tech-tag">PHP</span>
+              <span class="tech-tag">CSS3</span>
+            </div>
+            <p>Site institucional para centro de recuperação com informações sobre tratamento e contato.</p>
+            <div class="project-links">
+              <a href="https://github.com/Felipelarre/CasaderecuperacaoM" class="project-link" aria-label="Ver código" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i> Código
+              </a>
+              <a href="https://casaderecuperacaom.netlify.app/" class="project-link" aria-label="Ver demonstração" target="_blank" rel="noopener noreferrer" >
+                <i class="fas fa-external-link-alt"></i>  On-line
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="project-card">
+          <div class="project-image">
+            <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1740&q=80" alt="Loja de Carros">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Loja de Carros</h3>
+            <div class="project-tech">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">MongoDB</span>
+            </div>
+            <p>Plataforma para venda de carros com filtros avançados e sistema de agendamento de test drive.</p>
+            <div class="project-links">
+              <a href="https://github.com/Felipelarre/Cardapio-online" class="project-link" aria-label="Ver código" target="_blank" rel="noopener noreferrer" >
+                <i class="fab fa-github"></i> Código
+              </a>
+              <a href="https://visionary-boba-700979.netlify.app/" class="project-link" aria-label="Ver demonstração" target="_blank" rel="noopener noreferrer" >
+                <i class="fas fa-external-link-alt"></i>  On-line
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="all-projects">
+    <div class="container">
+      <h2 class="section-title">Todos os Projetos</h2>
+      
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="Imag/Marcos.png" alt="Marcos Pinturas">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Marcos Pinturas</h3>
+            <div class="project-tech">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+            <p>Site para empresa de pintura com portfólio de trabalhos e sistema de orçamento online.</p>
+            <div class="project-links">
+              <a href="https://github.com/Felipelarre/Marcos-Pinturas" class="project-link" aria-label="Ver código" target="_blank" rel="noopener noreferrer" >
+                <i class="fab fa-github"></i> Código
+              </a>
+              <a href="https://marcos-pinturas.netlify.app/" class="project-link" aria-label="Ver demonstração" target="_blank" rel="noopener noreferrer" >
+                <i class="fas fa-external-link-alt"></i>  On-line
+              </a>
+            </div>
+          </div>
+        </div>
+         <div class="project-card">
+          <div class="project-image">
+            <img src="Imag/SolarX.png" alt="SolarX Óculos">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">SolarX Óculos</h3>
+            <div class="project-tech">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Redux</span>
+              <span class="tech-tag">Stripe</span>
+            </div>
+            <p>E-commerce especializado em óculos de sol com sistema de avaliações e filtros avançados.</p>
+            <div class="project-links">
+              <a href="https://github.com/Felipelarre/SolarX" class="project-link" aria-label="Ver código" target="_blank" rel="noopener noreferrer" >
+                <i class="fab fa-github"></i> Código
+              </a>
+              <a href="https://lively-pothos-c7ef43.netlify.app/" class="project-link" aria-label="Ver demonstração" target="_blank" rel="noopener noreferrer" >
+                <i class="fas fa-external-link-alt"></i>  On-line
+              </a>
+            </div>
+          </div>
+        </div>
+         <div class="project-card">
+          <div class="project-image">
+            <img src="Imag/TurpoFocus.png" alt="TurpoFocus">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">TurpoFocus</h3>
+            <div class="project-tech">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Firebase</span>
+              <span class="tech-tag">Material UI</span>
+            </div>
+            <p>Aplicativo de produtividade com temporizador Pomodoro, lista de tarefas e métricas de desempenho.</p>
+            <div class="project-links">
+              <a href="https://github.com/Felipelarre/TurboFocus" class="project-link" aria-label="Ver código" target="_blank" rel="noopener noreferrer" >
+                <i class="fab fa-github"></i> Código
+              </a>
+              <a href="https://resplendent-tanuki-e5ef2b.netlify.app/" class="project-link" aria-label="Ver demonstração" target="_blank" rel="noopener noreferrer" >
+                <i class="fas fa-external-link-alt"></i>  On-line
+              </a>
+            </div>
+          </div>
+        </div>
+         <div class="project-card">
+          <div class="project-image">
+            <img src="Imag/TechPime.png" alt="TechPrime">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">TechPrime</h3>
+            <div class="project-tech">
+              <span class="tech-tag">Vue.js</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">MongoDB</span>
+            </div>
+            <p>Plataforma de tecnologia com produtos eletrônicos e serviços de manutenção com garantia.</p>
+            <div class="project-links">
+              <a href="https://github.com/Felipelarre/TechPrime"class="project-link" aria-label="Ver código" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i> Código
+              </a>
+              <a href="https://techprime2025.netlify.app/" class="project-link" aria-label="Ver demonstração" target="_blank" rel="noopener noreferrer" >
+                <i class="fas fa-external-link-alt"></i>  On-line
+              </a>
+            </div>
+          </div>
+        </div>
+
+         <div class="project-card">
+          <div class="project-image">
+            <img src="Imag/Casa-F.png" alt="Casa de Recuperação Feminina">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Casa de Recuperação Feminina</h3>
+            <div class="project-tech">
+              <span class="tech-tag">WordPress</span>
+              <span class="tech-tag">PHP</span>
+              <span class="tech-tag">CSS3</span>
+            </div>
+            <p>Site institucional para centro de recuperação feminino com informações sobre tratamento.</p>
+            <div class="project-links">
+              <a href="https://github.com/Felipelarre/Projeto-Feminino" class="project-link" aria-label="Ver código" target="_blank" rel="noopener noreferrer" >
+                <i class="fab fa-github"></i> Código
+              </a>
+              <a href="https://casaderecuperacaof.netlify.app/" class="project-link" aria-label="Ver demonstração" target="_blank" rel="noopener noreferrer">
+                <i class="fas fa-external-link-alt"></i>  On-line
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-image">
+            <img src="Imag/Otica.png" alt="Ótica Visão">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Ótica Visão</h3>
+            <div class="project-tech">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">JavaScript</span>
+            </div>
+            <p>Site para ótica com catálogo de produtos, localização e sistema de agendamento de exames.</p>
+            <div class="project-links">
+              <a href="https://github.com/Felipelarre/-tica-Vis-o-Perfeita" class="project-link" aria-label="Ver código" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github"></i> Código
+              </a>
+              <a href="https://techprime2025.netlify.app/" class="project-link" aria-label="Ver demonstração" target="_blank" rel="noopener noreferrer">
+              <i class="fas fa-external-link-alt"></i> On-line
+              </a>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Entre em Contato</h2>
+      
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="contact-card">
+            <h3 class="contact-title">Informações de Contato</h3>
+            
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Email</h4>
+                <a href="mailto:contato@exemplo.com">felipe.larre7@gmail.com.br</a>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Telefone</h4>
+                <a href="tel:+5511999999999">+55 (81) 99231-5619</a>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Localização</h4>
+                <p>Paulista, Pe</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="contact-card">
+            <h3 class="contact-title">Redes Sociais</h3>
+            
+            <div class="social-links">
+              <a href="#" class="social-link" aria-label="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="#" class="social-link" aria-label="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="#" class="social-link" aria-label="Twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="social-link" aria-label="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="contact-form">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">Nome Completo</label>
+              <input type="text" id="name" class="form-control" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" class="form-control" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="subject">Assunto</label>
+              <input type="text" id="subject" class="form-control" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Mensagem</label>
+              <textarea id="message" class="form-control" required></textarea>
+            </div>
+            
+            <button type="submit" class="submit-btn">
+              <i class="fas fa-paper-plane"></i> Enviar Mensagem
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <i class="fas fa-code"></i> Portfólio
+        </div>
+        
+        <div class="footer-links">
+          <a href="#home">Início</a>
+          <a href="#skills">Habilidades</a>
+          <a href="#projects">Projetos</a>
+          <a href="#all-projects">Todos os Projetos</a>
+          <a href="#contact">Contato</a>
+        </div>
+          
+        <div class="copyright">
+          <p>&copy; <span id="currentYear"></span> Felipe Larré. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button id="back-to-top" aria-label="Voltar ao topo">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  
+  <script src="script.js"></script>
+</body>
+</html>
